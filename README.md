@@ -23,4 +23,13 @@ git clone https://github.com/Microsoft/vcpkg.git
 
 Run the bootstrap script accordingto your system to build vcpkg 
 ./vcpkg/bootstrap-vcpkg.sh - for mac
+./vcpkg/bootstrap-vcpkg.bat - for windows
 
+
+
+
+in the Parent dir
+cmake .
+to automate finding and including external libraries
+make
+to build the system
