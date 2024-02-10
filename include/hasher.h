@@ -1,6 +1,6 @@
 #ifndef HASHER
 #define HASHER
-#define CONST_PREFIX ".Space"
+#define CONST_PREFIX "anything to concat"
 
 #include <iostream>
 #include <string>
